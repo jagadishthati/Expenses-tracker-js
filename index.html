@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/af0cd36521.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1> Enter Expenses</h1>
+            <input type="text" class="product" placeholder="Enter Title of Product" required>
+            <input type="number" class="cost" placeholder=" Enter Cost of Product" required>
+            <button class="btn"> Add</button>
+        </div>
+        <div class="container-2">
+            <h2> Total Expenses For Today</h2>
+            <span>0</span>
+        </div>
+        <div class="container-3">
+            <h3 class="subHead"> Expenses</h3>
+            <div class="expenses-detail">
+                <span class="expenses-word"></span>
+                <span class="expenses-number">$1201</span>
+                <span class="edit"><i class="fa-solid fa-pen-to-square"></i></span>
+                <span class="delete"><i class="fa-solid fa-trash"></i></span>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>

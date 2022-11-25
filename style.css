@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.container{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1vw;
+    background: aquamarine;
+    padding: 3vw;
+    border-radius: 38px;
+}
+.product{
+    width: 50vw;
+    padding: 1vh;
+}
+.cost{
+    width: 50vw;
+    padding: 1vh;
+}
+.btn{
+    background: #47e947;
+    color: white;
+    border: none;
+    padding: 1vw;
+    font-size: medium;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #8a2be2;
+    color: #ffffff;
+    padding: 1vw;
+    border-radius: 14px;
+}
+.expenses-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    padding: 1vh;
+    border-left: 4px solid #b12f2f;
+    font-size: medium;
+    font-weight: 500;
+}
